@@ -1,11 +1,6 @@
 import React from 'react';
+import Main from './pages/Main/index';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello react</h1>
-    </div>
-  );
-}
+const App = () => <Main />;
 
 export default App;
